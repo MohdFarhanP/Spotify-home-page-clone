@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="spotify-brands-solid.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Spotify web clone</title>
+    
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-nav">
+            <div class="logo">
+                <a href=""><img src="Spotify images/logo-new.png" alt=""></a>
+            </div>
+            <ul>
+                <li><a href="">
+                    <span><i class="fa-solid fa-house"></i></span>
+                    <span>Home</span>
+                </a></li>
+                <li><a href="">
+                    <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <span>Search</span>
+                </a></li>
+            </ul>
+        </div>
+        
+        <div class="sidebar-nav box2">
+            <ul>
+                <li><a href="">
+                    <span><i class="fa-solid fa-book"></i></span>
+                    <span class="library">Your Library</span>
+                </a></li>
+                <li>
+                    <div class="sidebar-scroll"> 
+                        <div class="create-playlist">
+                            <h4>Create Your First Playlist</h4>
+                            <p>It's easy,we will help you</p>
+                            <button>Create Playlist</button>
+                        </div>
+                        <div class="create-playlist">
+                            <h4>Create Your First Playlist</h4>
+                            <p>It's easy,we will help you</p>
+                            <button>Create Playlist</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <hr class="id">
+            <div class="privacy">
+                <ul>
+                    <li>
+                        <a>Legal</a>
+                        <a>Safty&privacycenter</a>
+                        <a>Privacypolicy</a>
+    
+                    </li>
+                    <li><a>Cookies</a>
+                        <a>Aboutads</a>
+                        <a>Accessibility</a> 
+                    </li>
+                    <li>
+                        <a>Cookies</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="eng-btn">
+                
+                <button><span><i class="fa-solid fa-globe"></i></span>  English</button>
+            </div>
+        </div>
+    
+    </div>
+    <!--main section-->
+    <div class="main-section">
+        <div class="top-nav">
+            <div class="prev-btn">
+                <button><i class="fa-solid fa-chevron-left"></i></button>
+                <button><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+            <div class="log-btn">
+                <button class="signup">Sign up</button>
+                <button class="login">Log in</button>
+
+            </div>
+        </div>
+        <div class="spotify-playlist">
+            <h2>Popular albums</h2>
+            <div class="card">
+                <div class="item">
+                    <img src="Spotify images/image-1.jpg">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Aashiqui 2</h4>
+                    <p>Mithoon,Ankit Tiwari,Jeet Gannguli</p>
+                </div>
+                <div class="item">
+                    <img src="Spotify images/image-2.jpg">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Ek Tha Raja</h4>
+                    <p>Badshah</p>
+                </div>
+                <div class="item">
+                    <img src="Spotify images/image-3.jpg">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>ANIMAL</h4>
+                    <p>Manan Bhardwaj,Vishal Mishra,Jaani</p>
+                </div>
+                <div class="item">
+                    <img src="Spotify images/image-4.jpg">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Sajni (From "Laapataa Ladies")</h4>
+                    <p>Ram Sampath,Arijit Singh,Prashant Pandey</p>
+                </div>
+                <div class="item">
+                    <img src="Spotify images/image-5.jpg">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Moosetape</h4>
+                    <p>Sidhu Moose Wala</p>
+                </div>
+                <div class="item">
+                    <img src="Spotify images/image-6.jpg">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Still Rollin</h4>
+                    <p>Shubh</p>
+                </div>
+                
+            </div>
+        </div>
+        <div class="spotify-playlist">
+            <h2>Popular radio</h2>
+            <div class="card">
+                <div class="item">
+                    <img src="Spotify images/image-7.jpeg">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Arijit Singh Radio</h4>
+                    <p>With Neha Kakkar, Pritam, KK and more</p>
+                </div>
+                <div class="item">
+                    <img src="Spotify images/image-8.jpeg">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Shreya Ghoshal Radio</h4>
+                    <p>With Sonu Nigam, Sunidhi Chauhan, Shaan and more</p>
+                </div>
+                <div class="item">
+                    <img src="Spotify images/image-9.jpg">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Ikka Radio</h4>
+                    <p>With Karma, Raga, Muhfaad and more</p>
+                </div>
+                <div class="item">
+                    <img src="Spotify images/image-10.jpeg">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Udit Narayan Radio</h4>
+                    <p>With Kumar Sanu, Alka Yagnik, Anuradha Paudwal and more</p>
+                </div>
+                <div class="item">
+                    <img src="Spotify images/image-11.jpg">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>A.R. Rahman Radio</h4>
+                    <p>With Shankar Mahadevan, Anirudh Ravichander, Yuvan Shankar Raja and more</p>
+                </div>
+                <div class="item">
+                    <img src="Spotify images/image-12.jpg">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>G. V. Prakash Radio</h4>
+                    <p>With Hiphop Tamizha, Santhosh Narayanan, Yuvan Shankar Raja and more</p>
+                </div>
+                
+            </div>
+        </div>
+        <div class="spotify-playlist">
+            <h2>Popular albums</h2>
+            <div class="card">
+                <div class="item">
+                    <img src="Spotify images/image-1.jpg">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Aashiqui 2</h4>
+                    <p>Mithoon,Ankit Tiwari,Jeet Gannguli</p>
+                </div>
+                <div class="item">
+                    <img src="Spotify images/image-2.jpg">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Ek Tha Raja</h4>
+                    <p>Badshah</p>
+                </div>
+                <div class="item">
+                    <img src="Spotify images/image-3.jpg">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>ANIMAL</h4>
+                    <p>Manan Bhardwaj,Vishal Mishra,Jaani</p>
+                </div>
+                <div class="item">
+                    <img src="Spotify images/image-4.jpg">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Sajni (From "Laapataa Ladies")</h4>
+                    <p>Ram Sampath,Arijit Singh,Prashant Pandey</p>
+                </div>
+                <div class="item">
+                    <img src="Spotify images/image-5.jpg">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Moosetape</h4>
+                    <p>Sidhu Moose Wala</p>
+                </div>
+                <div class="item">
+                    <img src="Spotify images/image-6.jpg">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Still Rollin</h4>
+                    <p>Shubh</p>
+                </div>
+                
+            </div>
+        </div>
+        <div class="spotify-playlist">
+            <h2>Popular albums</h2>
+            <div class="card">
+                <div class="item">
+                    <img src="Spotify images/image-1.jpg">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Aashiqui 2</h4>
+                    <p>Mithoon,Ankit Tiwari,Jeet Gannguli</p>
+                </div>
+                <div class="item">
+                    <img src="Spotify images/image-2.jpg">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Ek Tha Raja</h4>
+                    <p>Badshah</p>
+                </div>
+                <div class="item">
+                    <img src="Spotify images/image-3.jpg">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>ANIMAL</h4>
+                    <p>Manan Bhardwaj,Vishal Mishra,Jaani</p>
+                </div>
+                <div class="item">
+                    <img src="Spotify images/image-4.jpg">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Sajni (From "Laapataa Ladies")</h4>
+                    <p>Ram Sampath,Arijit Singh,Prashant Pandey</p>
+                </div>
+                <div class="item">
+                    <img src="Spotify images/image-5.jpg">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Moosetape</h4>
+                    <p>Sidhu Moose Wala</p>
+                </div>
+                <div class="item">
+                    <img src="Spotify images/image-6.jpg">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Still Rollin</h4>
+                    <p>Shubh</p>
+                </div>
+                
+            </div>
+        </div>
+        <div class="spotify-playlist">
+            <h2>Popular albums</h2>
+            <div class="card">
+                <div class="item">
+                    <img src="Spotify images/image-1.jpg">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Aashiqui 2</h4>
+                    <p>Mithoon,Ankit Tiwari,Jeet Gannguli</p>
+                </div>
+                <div class="item">
+                    <img src="Spotify images/image-2.jpg">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Ek Tha Raja</h4>
+                    <p>Badshah</p>
+                </div>
+                <div class="item">
+                    <img src="Spotify images/image-3.jpg">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>ANIMAL</h4>
+                    <p>Manan Bhardwaj,Vishal Mishra,Jaani</p>
+                </div>
+                <div class="item">
+                    <img src="Spotify images/image-4.jpg">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Sajni (From "Laapataa Ladies")</h4>
+                    <p>Ram Sampath,Arijit Singh,Prashant Pandey</p>
+                </div>
+                <div class="item">
+                    <img src="Spotify images/image-5.jpg">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Moosetape</h4>
+                    <p>Sidhu Moose Wala</p>
+                </div>
+                <div class="item">
+                    <img src="Spotify images/image-6.jpg">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Still Rollin</h4>
+                    <p>Shubh</p>
+                </div>
+                
+            </div>
+        </div>
+        <div class="footer-section">
+            <div class="footer">
+                <div class="footer-links">
+                    <div class="footer-colum">
+                        <div>Company</div>
+                        <ul class="col-links">
+                            <li><a href="">About</a></li>
+                            <li><a href="">Jobs</a></li>
+                            <li><a href="">For The Record</a></li>
+                        
+                        </ul>
+                    </div>
+                    <div class="footer-colum">
+                        <div>Communities</div>
+                        <ul class="col-links">
+                            <li><a href="">For Artists</a></li>
+                            <li><a href="">Developers</a></li>
+                            <li><a href="">Advertising</a></li>
+                            <li><a href="">Investors</a></li>
+                            <li><a href="">Vendors</a></li>
+                        
+                        </ul>
+                    </div>
+                    <div class="footer-colum">
+                        <div>Useful links</div>
+                        <ul class="col-links">
+                            <li><a href="">Support</a></li>
+                            <li><a href="">Free Mobile App</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-colum">
+                        <div>Spotify Plans</div>
+                        <ul class="col-links">
+                            <li><a href="">Premium Individual</a></li>
+                            <li><a href="">Premium Duo</a></li>
+                            <li><a href="">Premium Family</a></li>
+                            <li><a href="">Premium Student</a></li>
+                            <li><a href="">Spotify Free</a></li>
+                        
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="social-links">
+                    <i class="fa-brands fa-instagram sd"></i>
+                    <i class="fa-brands fa-twitter sd"></i>
+                    <i class="fa-brands fa-facebook  sd"></i>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <p class="copyright">&copy; 2024 Spotify AB</p>
+        </div>
+    </div>
+    <div class="Preview">
+        <div class="text">
+            <h4>Preview of Spotify</h4>
+            <p>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+        </div>
+        <div class="button">
+            <button>Sign up free</button>
+        </div>
+    </div>
+    
+</body>
+</html>
